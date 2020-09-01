@@ -1,7 +1,7 @@
 # movYou
 MovYou - video streaming social app with React and YoutubeAPI
 
-![MovYou Logo](https://github.com/moisestech/movYou-react/blob/master/public/MovYou-logo.png)
+![MovYou Logo](https://github.com/moisestech/movYou-react/blob/master/public/MovYou_logo.png)
 
 ## Application tree
 ``` bash
