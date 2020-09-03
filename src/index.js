@@ -1,15 +1,27 @@
 import * as React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Header from './Header'
+import Sidebar from './Sidebar'
+import SearchPage from './SearchPage'
+import RecommendedVideos from './RecommededVideos'
 
-// Component
-// State
-// Lifecycle
-// UI
 
 function App () {
   return (
-    <h1>Welcome to MovYou!</h1>
+    <div className='app'>
+      <Header />
+
+      <div className='app-page'>
+        <Sidebar />
+        <SearchPage />
+      </div>
+
+      <div className='app-page'>
+        <Sidebar />
+        <RecommendedVideos />
+      </div>
+    </div>
   )
 }
 
