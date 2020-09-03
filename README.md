@@ -41,6 +41,7 @@ MovYou - video streaming social app with React and YoutubeAPI
 - React + React Hooks + React Router
 - React Context APU -> Redux Pattern
 - Material UI
+- Flexbox
 - Firebase’s Firestore Realtime DB
 - Firebase Hosting
 - Firebase Google Authentication (Will change to Auth0)
