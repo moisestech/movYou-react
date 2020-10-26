@@ -1,20 +1,31 @@
-import * as React from 'react'
-import ReactDOM from 'react-dom'
+import "./video-row.css";
 
-export default function VideoRow ({
+export default function VideoRow({
   views,
   subs,
   description,
   timestamp,
   channel,
   title,
-  image
+  image,
 }) {
   return (
-    <div className='video-row'>
-      Video Row
+    <div className="video-row">
+      <img src={image} alt="" />
+      <div className="video-row-text">
+        <h3>{title}</h3>
+        <p className="video-row-text">
+          {channel} •{" "}
+          <span className="video-row-subs">
+            <span className="video-row-subs-number">{subs}</span>
+            Subscribers{" "}
+          </span>
+          {views} views * {timestamp}
+        </p>
+        <p className="video-row-description">{description}</p>
+      </div>
     </div>
-  )
+  );
 }
 
 VideoRow.propTypes = {
@@ -24,5 +35,5 @@ VideoRow.propTypes = {
   timestamp: PropTypes.string.isRequired,
   channel: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired
-}
+  image: PropTypes.string.isRequired,
+};
