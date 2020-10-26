@@ -1,10 +1,11 @@
-import * as React from 'react'
+import './sidebar-row.css';
 import PropTypes from 'prop-types'
 
-export default function SidebarRow () {
+export default function SidebarRow ({ selected, Icon, title }) {
   return (
-    <div className='side-bar-row'>
-      SidebarRow
+    <div className={`sidebar-row ${selected & && 'selected'}`}>
+      <Icon className="sidebar-row-icon" />
+      <h2 className="sidebar-row-title">{title}</h2>
     </div>
   )
 }
