@@ -1,31 +1,36 @@
-import * as React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Header from './Header'
-import Sidebar from './Sidebar'
-import SearchPage from './SearchPage'
-import RecommendedVideos from './RecommededVideos'
+import "./index.css";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+// COMPONENTS
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import SearchPage from "./components/SearchPage";
+import RecommendedVideos from "./components/RecommendedVideos";
 
-function App () {
+function App() {
   return (
-    <div className='app'>
-      <Header />
+    <div className="app">
+      <Router>
+        <Header />
 
-      <div className='app-page'>
-        <Sidebar />
-        <SearchPage />
-      </div>
-
-      <div className='app-page'>
-        <Sidebar />
-        <RecommendedVideos />
-      </div>
+        <Switch>
+          <Route path="/search/:searchTerm">
+            <div className="app-page">
+              <Sidebar />
+              <SearchPage />
+            </div>
+          </Route>
+          <Route path="/">
+            <div className="app-page">
+              <Sidebar />
+              <RecommendedVideos />
+            </div>
+          </Route>
+        </Switch>
+      </Router>
     </div>
-  )
+  );
 }
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('app')
-)
+ReactDOM.render(<App />, document.getElementById("app"));
