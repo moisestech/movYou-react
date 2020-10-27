@@ -16,10 +16,9 @@
   margin-left: 14px;
 }
 
-.video-row-description {
+.video-row-headline {
   color: #606060;
   font-size: 12px;
-  margin-top: 20px;
 }
 
 .video-row-subs {
@@ -32,7 +31,8 @@
   font-weight: 700;
 }
 
-.video-row-headline {
+.video-row-description {
   color: #606060;
   font-size: 12px;
+  margin-top: 20px;
 }
