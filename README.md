@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8f37800-479e-4829-9814-f668977c6bcc/deploy-status)](https://app.netlify.com/sites/vigorous-hopper-b722ef/deploys)
+
 # movYou
 
 <img src="https://raw.githubusercontent.com/moisestech/movYou-react/master/public/mov-you-logo-landscape.png" width="150px" />
