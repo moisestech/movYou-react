@@ -10,7 +10,12 @@
   "babel": {
     "presets": [
       "@babel/preset-env",
-      "@babel/preset-react"
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ]
     ],
     "plugins": [
       "@babel/plugin-proposal-class-properties",
@@ -29,6 +34,8 @@
   },
   "homepage": "https://github.com/moisestech/movYou-react#readme",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "css-loader": "^4.2.2",
     "html-webpack-plugin": "^4.4.1",
