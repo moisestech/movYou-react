@@ -1,4 +1,5 @@
 import "./video-row.css";
+import PropTypes from "prop-types";
 
 export default function VideoRow({
   views,
@@ -14,7 +15,7 @@ export default function VideoRow({
       <img src={image} alt="" />
       <div className="video-row-text">
         <h3>{title}</h3>
-        <p className="video-row-text">
+        <p className="video-row-headline">
           {channel} •{" "}
           <span className="video-row-subs">
             <span className="video-row-subs-number">{subs}</span>
