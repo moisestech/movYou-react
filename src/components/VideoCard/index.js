@@ -1,4 +1,6 @@
+import "./video-card.css";
 import PropTypes from "prop-types";
+import Avatar from "@material-ui/core/Avatar";
 
 export default function VideoCard({
   image,
