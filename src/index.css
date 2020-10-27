@@ -1,211 +1,27 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 /* App */
 
 .app-page {
-
-}
-
-/* Channel Row */
-
-.channel-row {
-
-}
-
-.channel-row-text {
-
-}
-
-.channel-row-test > p {
-
-}
-
-.channel-row-logo {
-
-}
-
-.channel-row-text > h4 {
-
-}
-
-/* Header */
-
-.header {
-
-}
-
-.header-logo {
-
-}
-
-.header-input {
-
-}
-
-.header-icon {
-
-}
-
-.header-input-button {
-
-}
-
-.header-icons {
-
-}
-
-.header-input > input {
-
-}
-
-
-/* Recommended Videos */
-
-.recommended-videos {
-
-}
-
-.recommended-videos > h2 {
-
-}
-
-.recommended-videos-videos {
-
-}
-
-/* Search Page */
-
-.search-page {
-
-}
-
-.search-page-filter {
-
-}
-
-.search-page-filter > h2 {
-
-}
-
-.search-page > hr {
-
-}
-
-
-/* Sidebar */
-
-.sidebar {
-
-}
-
-.sidebar > hr {
-
-}
-
-
-/* Sidebar Row */
-
-.sidebar-row {
-
-}
-
-.sidebar-row-icon {
-
-}
-
-.sidebar-row-title {
-
-}
-
-.sidebar-row:hover {
-
-}
-
-.sidebar-row:hover > .sidebar-row-icon {
-
-}
-
-.sidebar-row:hover > .sidebar-row-title {
-
-}
-
-.sidebar-row.selected > .sidebar-row-icon {
-
-}
-
-.sidebar-row.selected > .sidebar-row-title {
-
-}
-
-/* Video Card */
-
-.video-card {
-
-}
-
-.video-card-thumbnail {
-
-}
-
-.video-card-info {
-
-}
-
-.video-card-text {
-
-}
-
-.video-card-text > h4 {
-
-}
-
-.video-card-text > p {
-
-}
-
-.video-avatar {
-
-}
-
-
-/* Video Row */
-
-.video-row {
-
-}
-
-.video-row > img {
-
-}
-
-.video-row-text {
-
-}
-
-.video-row-description {
-
-}
-
-.video-row-subsnumber {
-
-}
-
-.video-row-headline {
-
+  display: flex;
 }
