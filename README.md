@@ -79,7 +79,7 @@ Coming Soon!
   ## 📝 Todos
 
 - React + React Hooks + React Router
-- React Context APU -> Redux Pattern
+- React Context API -> Redux Pattern
 - Material UI
 - Flexbox
 - Firebase’s Firestore Realtime DB
