@@ -4,7 +4,7 @@
 
 <img src="https://raw.githubusercontent.com/moisestech/movYou-react/master/public/mov-you-logo-landscape.png" width="150px" />
 
-MovYou - video streaming social app with React and YoutubeAPI
+## MovYou - video streaming social app with React and YoutubeAPI
 
 ## 👁️‍🗨️ Project Preview
 
@@ -76,7 +76,7 @@ Coming Soon!
 - Liked videos
 - History
 
-## 📝 Todos
+  ## 📝 Todos
 
 - React + React Hooks + React Router
 - React Context APU -> Redux Pattern
